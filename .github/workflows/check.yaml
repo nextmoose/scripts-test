@@ -28,5 +28,5 @@ jobs:
           test-url: github:nextmoose/scripts-test
           test-postulate: true
           test-rev: 
-          test-defect:
+          test-defect: foobar
           postulate: true
