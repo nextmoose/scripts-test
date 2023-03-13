@@ -8,9 +8,9 @@ jobs:
       - uses: cachix/install-nix-action@a4b8aaf5a24260b643f571235829e53e6b3cc920
       - uses: nextmoose/test-action@eef4910e8ed5b796ffc68397185d0292e1c52cf3
         with:
-          implementation-url: github:nextmoose/tester
+          implementation-url: github:nextmoose/scripts
           implementation-postulate: false
-          test-url: github:nextmoose/tester-test
+          test-url: github:nextmoose/scripts-test
           test-postulate: false
           test-rev: 
           test-defect:
@@ -23,9 +23,9 @@ jobs:
       - uses: cachix/install-nix-action@a4b8aaf5a24260b643f571235829e53e6b3cc920
       - uses: nextmoose/test-action@eef4910e8ed5b796ffc68397185d0292e1c52cf3
         with:
-          implementation-url: github:nextmoose/tester
+          implementation-url: github:nextmoose/scripts
           implementation-postulate: false
-          test-url: github:nextmoose/tester-test
+          test-url: github:nextmoose/scripts-test
           test-postulate: true
           test-rev: 
           test-defect:
